@@ -1,0 +1,2145 @@
+3=
+minimum=/maximum
+1.typical=ordinary
+2.scarce=rare
+3.annual=yearly
+4.persuade=convince
+5.essential=necessary
+6.blend=mix
+7.visible=observable
+8.device=invent
+9.wholesale=/retail
+10.
+11.
+12.
+
+4=
+1.vapor=fog
+2.eliminate=remove
+3.villain=evil
+4.dense=thick
+5.utilize=use
+6.humid=moist
+7.theory
+8.descend=come down
+9.circulate=go around
+10.enormous=huge
+11.predict=foresee
+12.vanish=disappear
+
+5=
+1.tradition
+2.tradition
+3.rural rural
+4.burden
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+
+8=
+1.exaggerate=overstate
+2.amateur=beginner
+3.mediocre=average
+4.variety=diversity
+5.valid
+6.survive
+7.weird=mysterious
+8.prominent=important
+9.security
+10.bulky=huge
+11.reluctant
+12.obvious=clear
+
+
+10=
+1.excel=do better than
+2.feminine
+3.mount=climb
+4.compote=contest
+5.dread=fear
+6.masculine=masculine
+7.menace=threat
+8.tendency=leaning
+9.underestimate=underrate
+10.victorious=conquering
+11.numerous=many
+12.flexible=easily bend
+
+11=
+1.evidence=proof
+2.solitary=alone
+3.vision
+4.frequent=happening often
+5.glimpse=a quick view
+6.recent=current
+7.decade=ten year
+8.hesitate=doubt
+9.absurd=foolish
+10.conflict=strife
+11.minority=less than half
+12.fiction=tale
+
+14=
+1.unrule=intractable
+2.rival=opponent
+3.violent=fierce
+4.brutal=cruel
+5.opponent=rival
+6.brawl=fight
+7.duplicate=copy
+8.vicious=wild
+9.whiling=spinning
+10.underdog
+11.thrust=push
+12.bewildered=confused
+
+15=
+1.expand=swell
+2.alter=change
+3.mature=grown up
+4.sacred=holy
+5.revise
+6.pledge=promise
+7.casual=indifferent
+8.pursue=follow
+9.unanimous
+10.fortunate=luck
+11.pioneer=leader
+12.innovative
+
+16=
+1.slender=thin
+2.surpass=excel
+3.vast=enormous
+4.doubt=distrust
+5.capacity
+6.penetrate=pierce
+7.accurate
+8.
+9.
+10.
+11.
+12.
+
+18=
+1.tragedy=disaster
+2.pedestrian =walker
+3.glance=a quick look
+4.budget
+5.nimble=quick
+6.manipulate
+7.reckless=careless
+8.horrid=frightful
+9.rave=talk wildly
+10.economical=frugal
+11.lubricate=oil
+12.ingenious=clever
+
+
+19=
+1.harvest=crop
+2.abundant=numerous
+3.uneasy=anxious
+4.calculate=compute
+5.absorb=attract
+6.estimate=guess
+7.morsel
+8.quota=ration
+9.threat=warning
+10.ban=forbid
+11.panic=fear
+12.appropriate=suitable
+
+
+22=
+1.warden=guard
+2.acknowledge=confess
+3.justice=equity
+4.delinquent=criminal
+5.reject=deny
+6.deprive=dispossess
+7.spouse=husband or wife
+8.
+9.
+9.
+10.
+11.
+12.
+ 
+
+23=
+1.reptile
+2.rarely=selden
+3.forbid=ban
+4.logical=reasonable
+5.exhibit=show
+6.proceed=continue
+7.precaution=caution
+8.extract=pull out
+9.prior=earlier
+10.embrace=hug
+11.valiant=brave
+12.partial=not complete
+
+24=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+25=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+26=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+27=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+28=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+29=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+30=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+
+31=
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+32=
+1.refer refer refer refer====appear appear appear 
+2.distress distress distress distress distress
+3.diminish diminish diminish diminish diminish
+4.maximum maximum maximum maximum
+5.flee flee flee flee flee====escape escape escape
+6.vulnerable vulnerable vulnerable vulnerable
+7.signify signify signify signify signify 
+8.mythology mythology mythology mythology
+9.colleague colleague colleague colleague colleague colleague
+10.torment torment torment torment
+11.provide provide provide
+12.loyalty loyalty loyalty
+
+
+
+33=
+1.volunteer volunteer volunteer volunteer volunteer
+2.prejudice prejudice prejudice prejudice prejudice prejudice prejudice
+3.shrill shrill shrill shrill shrill shrill shrill shrill
+4.jolly jolly jolly
+5.witty witty witty witty witty
+6.hinder hinder hinder hinder
+7.lecture lecture lecture
+8.abuse abuse abuse
+9.mumble mumble mumble mumble
+10.mute mute mute
+11.wad wad
+12.retain retain retain
+
+
+34=
+1.candidate candidate candidate candidate
+2.precede precede precede
+3.adolescent adolescent adolescent===juvenile
+4.coeducational coeducational coeducational====mixed
+5.radical radical radical
+6.spontaneous spontaneous
+7.skim skim skim skim
+8.vaccinate vaccinate vaccinate vaccinate
+9.untidy untidy untidy
+10.utensil utensil utensil utensil
+11.sensitive sensitive sensitive
+12.temperate temperate  temperate
+
+
+35=
+1.vague vague vague vague
+2.elevate elevate
+3.lottery lottery lottery 
+4.finance finance finance
+5.obtain obtain obtain
+6.cinema cinema
+7.event event event event
+8.discard discard
+9.soar soar soar soar
+10.subsequent subsequent subsequent
+11.relate relate relate
+12.stationary stationary
+
+
+
+36=
+1.prompt prompt prompt prompt 
+2.hasty hasty hasty 
+3.scorch scorch scorch scorch
+4.tempest tempest tempest
+5.soothe soothe soothe soothe
+6sympathetic sympathetic sympathetic sympathetic
+7.redeem redeem redeem redeem redeem
+8.resume resume resume===go on
+9.harmony harmony harmony==balance 
+10.refrain refrain===avoid
+11.illegal illegal illegal=unlawful unlawful
+12.narcotic===drug
+
+
+
+37=
+1.heir heir heir heir
+2.majestic majestic majestic majestic majestic====grand grand
+3.dwindle dwindle dwindle dwindle====shrink shrink shrink
+4.surplus surplus surplus===extra
+5.traitor traitor traitor===betrayer
+6.deliberate deliberate deliberate==intentional intentional
+7.vandal vandal vandal
+8.drought drought drought
+9.abide abide==endure endure endure
+10.unify unify unify==unite
+11.summit summit summit==crest crest crest crest
+12.heed heed heed heed==pay attention
+
+
+
+38=
+1.biography===life story
+2.drench
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+
+
+
+39=
+1.unearth unearth unearth ===dig up dig up dig up
+2.depart depart depart==go away go away 
+3.coincide coincide coincide coincide
+4.cancel cancel cancel
+5.debtor debtor debtor debtor debtor debtor
+6.legible legible legible legible legible legible legible
+7.placard placard placard
+8.contagious contagious contagious===infectious infectious
+9.clergy clergy
+10.customary customary customary 
+11.transparent transparent ===clear
+12.scald scald scald
+
+
+
+
+40=
+1.epidemic epidemic epidemic===contagious
+2.obesity obesity obesity obesity ===fatness fatness 
+3.magnify magnify magnify 
+4.chiropractor chiropractor 
+5.obstacle obstacle obstacle
+6.ventilate ventilate ventilate ventilate==freshen freshen
+7.jeopardize jeopardize jeopardize
+8.negative negative negative==minus minus
+9.pension pension
+10.vital vital vital==necessary necessary
+11.municipal municipal==urban urban
+12.oral oral
+
+
+
+41=
+1.complacent complacent
+2.wasp wasp wasp
+3.rehabilitate rehabilitate
+4.parol parol
+5.vertical vertical
+6.multitude multitude
+7.nominate nominate nominate
+8.potential potential potential
+9.morgue morgue
+10.preoccupied preoccupied
+11.upholstery upholstery
+12.indifference indifference
+
+
+
+42=
+1.maintain maintain maintain 
+2.snub snub
+3.endure endure endure
+4.wrath wrath 
+5.expose expose
+6.legend legend 
+7.ponder ponder
+8.resign resign resign
+9.drastic drastic
+10.wharf wharf
+11.amend amend
+12.ballot ballot
+
+
+
+
+
+
+
+
+
+
+
+
+
+lesson 1
+
+
+1=abandon abandon abandon  abandon abandon abandon abandon abandon abandon  abandon abandon  =  raha kardan
+1=[ leave behind leave behind leave behind leave behind leave behind leave behind leave behind ]
+
+2=keen keen keen keen keen keen keen keen keen keen keen keen keen keen keen keen  =  tiz,alaghemand
+
+3=jealous jealous jealous jealous jealous jealous jealous jealous jealous jealous jealous jealous  =  hasood
+3=[ envious envious envious envious envious envious envious envious envious envious envious envious ]
+
+4=tact tact tact tact tact tact tact tact tact tact tact tact tact tact tact tact tact = tadbir
+
+5=oath oath oath oath oath oath oath oath oath oath oath oath oath oath oath oath oath = ghasam,fosh
+5=[ promise promise promise promise promise promise promise promise promise promise  ]        
+
+6=vacant vacant vacant vacant vacant vacant vacant vacant vacant vacant vacant = khali
+
+7=hardship hardship hardship  hardship hardship hardship hardship hardship hardship = sakhti
+7=[ difficulty difficulty difficultly difficultly difficultly difficultly difficultly difficultly ]
+
+8=gallant gallant gallant gallant gallant gallant gallant gallant gallant gallant = shojaa
+8=[ brave brave brave brave brave brave brave brave brave brave ]
+
+9=data data data  data data data data data data data data data data data = etelaat
+9=[ information information information information information information information ]
+
+10=unaccustomed unaccustomed unaccustomed unaccustomed = na ashna be chizi ,faghed adat
+
+11=bachelor bachelor bachelor bachelor bachelor bachelor bachelor bachelor bachelor = mojarad,lisans 
+
+12=qualify qualify qualify qualify qualify qualify qualify qualify = layegh,ba kefayat
+
+
+lesson 2
+
+1=corpse corpse corpse corpse corpse corpse corpse corpse corpse corpse = jasad
+1=[ dead body dead body dead body dead body dead body dead body dead body dead body ]
+
+2=conceal conceal conceal conceal conceal conceal conceal conceal conceal conceal = penhan
+2=[ hide hide hide hide hide hide hide hide hide hide hide hide hide]
+
+3=dismal dismal dismal dismal dismal dismal dismal dismal dismal dismal dismal = tire,delgir
+3=[ dark dark dark dark dark dark dark dark , gloomy gloomy gloomy gloomy ]
+
+4=frigid frigid frigid frigid frigid frigid frigid frigid = monjamed,besyar sard
+4=[ very cold very cold very cold very cold very cold very cold very cold ]
+
+5=inhabit inhabit inhabit inhabit inhabit inhabit inhabit = saken
+5=[ live in live in live in live in live in live in live in live in ]
+
+6=numb numb numb numb numb numb numb numb numb numb numb = bihes
+6=insensitive insensitive insensitive insensitive insensitive ]
+
+7=peril peril peril peril peril peril peril peril  peril peril peril = khatar
+7= [ danger danger danger danger danger danger danger danger danger ]
+
+8=recline recline recline recline recline recline recline recline
+8=[ lean back lean back lean back lean back lean back lean back lean back ]
+
+9=shriek  shriek shriek shriek shriek shriek shriek shriek shriek = faryad zadan
+9=[ shout shout shout shout shout shout shout shout shout shout shout]
+
+10=sinister sinister sinister sinister sinister sinister sinister = sheytani
+10= [ ominous ominous ominous ominous ominous ominous ominous ]
+
+11=tempt tempt tempt tempt tempt tempt tempt tempt tempt tempt = vasvase kardan
+11=[ lure lure lure lure lure lure lure lure lure lure lure lure lure lure lure ]
+
+12=wager wager wager wager wager wager wager wager wager wager wager = shart bandi
+12=[ bet bet bet bet bet bet bet bet bet bet bet bet bet bet]
+
+
+
+lesson 3
+
+1=typical typical typical typical typical typical typical  = mamoli
+1=[ ordinary ordinary ordinary ordinary ordinary ordinary ordinary ordinary]
+
+2=minimum minimum minimum minimum minimum minimum minimum minimum = hadaghal
+/ 
+2=[ maximum maximum maximum maximum maximum maximum maximum maximum]
+
+3=scarce scarce scarce scarce scarce scarce scarce scarce scarce scarce ] 
+3=[ rare rare rare rare rare rare rare rare rare rare rare rare ] 
+
+4=annual annual annual annual annual annual annual annual annual 
+4=[ yearly yearly yearly yearly yearly yearly yearly yearly yearly ]
+
+5=persuade persuade persuade persuade persuade persuade persuade persuade = motaghaed kardan
+5=[ convince convince  convince convince convince convince convince convince ]
+
+6= essential essential essential essential essential essintail = zaroori
+6=[ necessary necessary necessaty necessary necessary necessary ]
+
+7=blend blend blend blend blend blend blend blend blend blend = ghati shodan , tarkib
+7=[ mix mix mix mix mix mix mix mix mix mix mix mix mixmix mix mix mix mix  ]
+
+8=visible visible visible visible visible visible visible = ghabel didan
+8=[ observable observable observable observable observable ]          
+
+9=expensive expensive expensive expensive expensive expensive = geran
+9=[ costly cosly costly costly cosly costlycostly cosly costly ]
+
+10=talent talent talent talent talent talent talent talent talent = estedad
+10=[ ability ability ability ability ability ability abilityability ability ]
+
+11=devise devise devise devise devise devise devise devise devise = ebda kardan
+11=[ invent invent invent invent invent invent invent invent ]
+
+12=wholesale wholesale wholesale wholesale wholesale wholesale =  omde foroshi
+12=[ retail retail retail retail retail retail retail retail ]
+
+
+
+lesson 4
+
+1=vapor vapor vapor vapor vapor vaporvapor vapor vaporvapor vapor vapor = bokhar
+1=[ fog fog fog fogfog fogfog fogfog fogfog fogfog fogfog fogfog fog ]
+
+2=eliminate eliminate eliminate eliminate eliminate eliminateeliminate eliminateeliminate = hazf kardan
+2=[ remove remove remove remove remove remove remove remove ]
+
+3=villain villain villain villain villain villain villain villain  = sharor
+3=[ evil evil evil evil  evil evil evil evil evil evil evil ] 
+
+4=dence dence dence dence dence dence dence dence dence dence = motarakem
+4=[ thick thick thick thick thick thickthick thick thickthick thick thick]
+
+5=utilize utilize utilize utilize utilize utilize utilize =  estefade kardan
+5=[ use use use useuse use use useuse use use useuse use use useuse use ]
+
+6=humid humid huimid humid humid huimid humid humid= khid namnak
+6=[ moist moist moist moist moist moist moist moistmoist moist moist moist ]
+
+7=theory theory theory theory theory theorytheory theory theory = teory nazarie
+7=[ hypothesis hypothesishypothesis hypothesishypothesis hypothesishypothesis]
+
+8=descend descend descend = paiian amadan
+8=[come down come down come down come down  ]
+
+9=circulate circulate circulate circulate = charkhidan
+9=[ go around go around go around]
+
+10=enormous enormous enormous enormous = azim
+10=huge huge 
+
+11=predict predict predict predict predict= pishgoyi
+11=foresee foresee foresee
+
+12=vanish vanish vanish vanish = napadid
+12=disapp
+
+
+
+lesson 5
+
+1=tradition tradition tradition tradition = rasm
+1=
+
+2=rural rural rural rural rural = rostaii
+2=rustic rustic
+
+3=burden burden burden burden = bar
+3=load load load load
+
+4=campus cumpus = mohavate daneshgah
+4=
+
+5=majority majority majority majority  = aksariat
+5=
+
+6=assemble assemble assemble = gerd avari kardan
+6=
+
+7=explore explore = kavosh kardan
+7=
+
+8=topic topic topic topic= mozo
+8=
+
+9=debate debate debate = bahs
+9=
+
+10=evade evade evade = tafre raftan
+10=
+
+11=probe probe = baresi
+11=
+
+12=reform reform = eslah kardan
+12=
+
+
+
+lesson 6
+
+1=approach approach approach approach = nazdik shodan ,roykard
+1=
+
+2=detect detect detect detect = kashf kardan
+2=
+
+3=defect defect = nags
+3=
+
+4=employee employee employee employee= karmand 
+4=
+
+5=neglect neglecg = gheflat
+5=
+
+6= deceive deceive = farib dadn
+6=
+
+7=undoubtedly undoubtedly undoybtedly 
+7=
+
+8=popular popular popular
+8=
+
+9= thorough thorough thorough
+9=
+
+10=client client
+10=
+
+11=comprehensive comprehensive = jame kamel
+11=
+
+12=defraud defraud defraud 
+12=
+
+
+
+lesson 7
+
+1=postpone postpone= be tavig andakhtan 
+1=
+
+2=consent consent= movafegat
+2=
+
+3=massive massive = azim
+3=
+
+4=capsule capsule = kapsool
+4=
+
+5=preserve preserve = hefz kardan
+5=
+
+6=denounce denounce = mahkom 
+6=
+
+7=unique unique = yekta
+7=
+
+8=toretnt torrent = seil
+8=
+
+9=resent resent = ranjede shodan 
+9=
+
+10=molest molest = azar dan
+10=
+
+11=gloomy gloomy = gerefte
+11=
+
+12=unforeseen = geyre gabel pish bini
+12=
+
+
+
+lesson 8
+
+1=exaggerate exaggerate exaggerate = eghrag kardan
+1=
+
+2=amateur amateur amateur = mobtadi
+2=
+
+3=medicre mediocre mediocre = motavaset
+3=
+
+4=variety variety variety variaty = tanavo
+4=
+
+5=valid valid valid = motabar
+5=
+
+6=survive survive = zende mandan
+6=
+
+7=weird weird weird = ajib garib
+7=
+
+8=prominent prominent prominent = barjaste
+8=
+
+9=security security security = amniat
+9=
+
+10=bulky bulky = hajim
+10=
+
+11=reluctant reluktant reluktant = bimeil
+11=
+
+12=obvious obvious = ashkar
+12=
+
+
+
+lesson 9
+
+1=vicinity vicinity vicinity = atraf
+1=
+
+2=contury century century = garn
+2=
+
+3=rage rage rage rage = asabaniat
+3=
+
+4=document document document = sanad
+4=
+
+5=conclude conclude conclude = natige gereftan
+5=
+
+6=undeniable undeniable undeniable = geyre gabel enkar
+6=
+
+7=resist resist = mogavemat kardan
+7=
+
+8=lack lack = kambod
+8=
+
+9=ignore ignore ignore = nadide gereftan
+9=
+
+10=challenge challenge = chalesh
+10=
+
+11=miniature miniature = besyar koochak
+11=
+
+12=source source = manba
+12=
+
+
+
+lesson 10
+
+1=excel excel excel = behtar bodan
+1=
+
+2=feminine feminine = zanane
+2=
+
+3=mount mount mount mount=  bala raftan
+3=
+
+4=compote compote compote = regabat
+4=
+
+5=dread dread dread dread = tars
+5=
+
+6=masculine masculine mascline = mardane
+6=
+
+7=menace menace menace menace = khatar , tahdid
+7=
+
+8=tendency tendency  = meil
+8=
+
+9= underestimate underestimate = dast kam gereftan
+9=
+
+10=victorious victorious  = piroz
+10=
+
+11=numerous nomerous  = faravan
+11=
+
+12=flexible flexible = monatef
+12=
+
+
+
+lesson 11
+
+1=evidence evidence = nashane , madrak
+1=
+
+2=solitary solitary  = tanha
+2=
+
+3=vision vision  = binayi
+3=
+
+4=frequent frequent= modavem , mokarar
+4=
+
+5=glimpse glimpse = negah gozara
+5=
+
+6=recent recent = akhir
+6=
+
+7=decard decard = dahe
+7=
+
+8=hesitate hesitate = moradad bodan , dodel badan
+8=
+
+9=absurd absurd = ahmagane
+9=
+
+10=conflict conflict = dargiri
+10=
+
+11=minority minority = agaliat
+11=
+
+12=fiction fiction = sakhtigi , khiali
+12=
+
+
+
+
+lesson 12
+
+1=ignite ignite = atash zadan
+1=
+
+2=abolish abolish = mansokh shodan
+2=
+
+3=urban urban = shahri
+3=
+
+4=population population = jamiat
+4=
+
+5=frank frank = sadeg ,rok
+5=
+
+6=pollute pollute = alode shodan
+6=
+
+7=reveal reveal = ashkar sakhtan
+7=
+
+8=prohibit prohibit = mamno kardan
+8=
+
+9=urgent urgent= zaroori
+9=
+
+10=adequate = kafi
+10=
+
+11=decrease decrease = kastan kahesh 
+11=
+
+12=audible = gabel shenidan
+12=
+
+
+
+
+lesson 13
+
+1=journalist journolist = khabar nagar
+1=
+
+2=famine famine = gahti
+2=
+
+3=revive revive = ehya kardan
+3=
+
+4=commence commence = shoro kardan
+4=
+
+5=observant observant = hoshyar
+5=
+
+6=identity identity = hoviat
+6=
+
+7=migrate = mohajerat
+7=
+
+8=vessel vessel = rag,keshti
+8=
+
+9=persist = esrar
+9=
+
+10=hazy hazy = meh alod
+10=
+
+11=gleam gleam = barg zadan
+11=
+
+12=editor = virayesh 
+12=
+
+
+
+
+lesson 14
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+lesson 15
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+lesson 16
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+lesson 17
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+lesson 18
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+
+lesson 19
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+lesson 20
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+
+lesson 21
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+
+
+
+lesson 22
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 23
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 24
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 25
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 26
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 27
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 28
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 29
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 30
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 31
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 32
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 33
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 34
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 35
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 36
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 37
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 38
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 39
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 40
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 41
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=
+
+lesson 42
+
+1=
+1=
+
+2=
+2=
+
+3=
+3=
+
+4=
+4=
+
+5=
+5=
+
+6=
+6=
+
+7=
+7=
+
+8=
+8=
+
+9=
+9=
+
+10=
+10=
+
+11=
+11=
+
+12=
+12=

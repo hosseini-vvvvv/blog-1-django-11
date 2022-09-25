@@ -1,0 +1,132 @@
+{% extends 'page/base2.html' %} 
+{% load blog_tags %}
+{% load static%}
+
+{% block main %}
+<title>{% block title %} {% endblock %}</title>
+{% block head %}
+
+
+<div>
+   <form class="search_box" action="{% url 'blog:search' %}" method="post">
+       {% csrf_token %}
+       <input type="text" name="search_input">
+       <input type="submit" name="submit" value="search">
+   </form>
+
+
+
+
+
+
+
+<p  style="font-size:18px ">
+   {{test.description }}
+   {% comment %} {{test.description |truncatewords:6}} === NESHAN DADAN CHAND RESHRE(MASALAN 6TA) {% endcomment %}
+   {% comment %} {{test.description |linebreaks}} === DO KHATI KARDAN MATN {% endcomment %}
+  
+   
+<div class="style_test">  
+   <h2 style="color:blue">: توضیحات پست  </h2> 
+</br>
+
+
+
+
+
+
+
+{{context.description|markdown|linebreaks}}
+
+
+
+
+
+
+
+</br></br></br>
+        {{context.title}}  : نام  
+   </br>
+   </br>
+          توضیحات : {{context.description}}
+
+         
+   </br>
+   </br>
+
+            {{context.published}}  : تاریخ و ساعت انتشار 
+   </br>
+   </br>
+           {{context.status}} :  وضعیت 
+
+</br>
+</br> 
+   {% comment %} <img src="{% static 'site/images2/test/پروفایل-شاد-34.jpg '  %}"> {% endcomment %}
+   
+
+ 
+ <a  href="{% url "blog:share_post" context.id %}">
+اشتراک گذاری پست
+</a> 
+
+</div>
+<br>
+
+<div class=comment> 
+   {% with comments.count as count %}
+     تعداد  کامنت ها : {{ count }}
+    <br>
+    <br>
+   {% for comment in comments %}
+   name :  {{ comment.name }}
+        <br>
+        
+          comment  {{ forloop.counter }} :   {{ comment.body }}
+        <br>
+        <br>
+        {% empty %}
+       ! کامنتی وجود ندارد 
+   {% endfor %}
+      {% endwith %}
+
+<div>
+
+{% if new_comment %}
+کامنت شما ارسال شد
+{% endif %}
+<br>
+<br>
+<h3> : افزودن کامنت جدید </h3>
+<br>
+<form method="post">
+   {% csrf_token %}
+{{ comment_form.as_p }}
+<input type="submit" value="ثبت کامنت">
+</form>
+</div>
+</div>
+<br>
+<br>
+<div class="tag_similar">
+   {% for tag in context.tags.all %}
+
+        <p>{{ tag.name }}</p>
+
+   {% endfor %}
+
+</div>
+
+<div  class="tag_similar">
+   {% for Test in similar_posts %}
+
+        <a href="{{ post.get_absolute_url }}">{{ Test.title }}</a>    
+
+   {% endfor %}
+
+</div>
+
+<br>
+<br>
+
+{% endblock  %}
+{% endblock  %}

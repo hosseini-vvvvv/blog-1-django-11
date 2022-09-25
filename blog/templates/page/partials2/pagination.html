@@ -1,0 +1,45 @@
+<div class="main_pagination">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination ">
+        
+            
+
+            {% if page.has_previous %}
+             
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page.previous_page_number }}">previous</a>
+                </li>
+            {% endif %} 
+            {% comment %} >>>====== page.has_previous ==AGAR PAGE GABLI VOOJOD DASHT {% endcomment %}
+            
+            <span class="detail_paginator ">
+                <ul class="pagination">
+                    {% for i in page.paginator.page_range %}
+                        {% if i == page.number %}
+                            <li class="page-item active">
+                                <a class="page-link" href="#">{{i}}</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page={{i}}">{{i }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </span>
+        
+            {% comment %} =======>>>>!!!!<<<<<  page is bootstrap >>>>>>!!!!<<<<<< {% endcomment %}
+            {% comment %} >>>======page.paginator.num_pages == SHOMARE PAGE BADI {% endcomment %}
+            {% comment %} >>>======page.paginator.page_range == SHOMARE PAGE rangi MIKONE. {% endcomment %}
+            
+            {% if page.has_next %}
+             
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page.next_page_number }}">next</a>
+                </li>
+            {% endif %} 
+            
+            {% comment %} >>>====== page.has_next ==AGAR PAGE BADI VOOJOD DASHT {% endcomment %}
+        </ul>
+    </nav>
+</div>

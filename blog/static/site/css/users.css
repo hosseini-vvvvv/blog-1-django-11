@@ -1,0 +1,13 @@
+.test {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+
+}
+
+.main_pagination {
+    margin-top: 15px;
+    display: flex;
+
+    justify-content: space-around;
+}

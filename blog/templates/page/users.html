@@ -1,0 +1,68 @@
+{% extends "page/base2.html" %}
+
+{% load static %}
+{% block title %} {% endblock %}
+{% block head %}
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'site/css/users.css'%}">
+
+
+<a href="{% url "blog:users" %}"><p class="test">:لیست پست ها </p></a>
+
+
+
+
+<div>
+     <form class="search_box" action="{% url 'blog:search' %}" method="post">
+         {% csrf_token %}
+         <input type="text" name="search_input">
+         <input type="submit" name="submit" value="search">
+     </form>
+ 
+
+
+
+
+
+
+
+
+
+
+
+<div class="tag">
+{% if tag %}
+فیلتر شده اند {{ tag.name }} پست ها بر اساس تگ 
+{% endif %}
+</div>
+<br>
+
+
+{% for Test in posts%}
+{% comment %} <a href="users/{{Test.title}}" ; style="color:Navy "> {% endcomment %}
+<a href="{{Test.get_absolute_url }}" ; style="color:Navy ">
+     <br>
+     <br>
+     <br>
+<div class="user_style">
+     <p>
+          {{Test.title}} : {{Test.description}}
+
+     </p>
+</a>
+
+     {% comment %} <p style="color:#a52198">{{ Test.tags.all|join:', ' }}</p>   {% endcomment %}
+   
+{% for tag in Test.tags.all %}
+
+     <a style="color: hwb(189 15% 28%)" href="{% url "blog:users_tag" tag.slug %}"> {{ tag.name }} </a>    
+
+      {% if not forloop.last %} , {% endif %} 
+{% endfor %}
+{% endfor %} 
+
+{% include 'page/partials2/pagination.html' with page=posts %}
+</div>
+{% endblock %}
+{% endblock %}

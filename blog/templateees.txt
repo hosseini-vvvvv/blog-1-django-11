@@ -1,0 +1,200 @@
+filter=
+
+1={% filter  lower%}
+abDGHhj   #Miniaturize words
+{% endfilter %}
+ 
+
+2={% filter title %}
+abDGHhj   #big words
+{% endfilter %}
+
+
+
+<<<<<<======template tags (cycle)======>>>>>>
+
+1=<div class="template"> 
+   {% for i in "abcd" %} 
+   {% cycle  'blue' 'red'  'yellow' as cl silent %}
+      <p class="{{ cl }}"> {{ i }}</p> 
+           ya 
+      <p class="{% cycle  'blue' 'red'  'yellow' %}"> {{ i }}</p> 
+      {% for j in '123'%}
+
+      {{ j }}
+      {% endfor %}
+{% endfor %} 
+{% cycle  'blue' 'red'  'yellow' %} =====>>template color different
+</div> 
+
+
+<<<<<<======template tags (cycle)======>>>>>>
+2=<div class="template"> 
+   {% for i in "abcd" %} 
+   <p>{{ i }}</p>
+
+      {% for j in '123'%}
+          {% cycle  'blue' 'red'  'yellow' as cl silent %}
+          <p class="{{ cl }}"> {{ j }}</p> 
+      
+      {% endfor %}
+{% endfor %}
+
+</div>
+
+
+
+ <<<<<<======template tags (cycle)======>>>>>>
+3=<p class="{% cycle 'red' 'blue' 'yellow' as cl %}">1</p>
+<p class="{{ cl }}">2</p>
+<p class="{% cycle 'red' 'blue' 'yellow' as cl %}">3</p>
+<p class="{{ cl }}">4</p> 
+
+
+
+<<<<<<======data======>>>>>>
+<div style="margin:aute;with:200px">
+     {% now  "SHORT_DATETIME_FORMAT"%} 
+{{d|time:H:i}} agar bekhahim gabl time chizi benivisim bak slash poshtesh mizarim>>>{{d|time:\kkk H:i}}
+d=motagayer dar view
+{{4|add:'51'}}===>55
+{{ll|add:'oo'}}===>lloo
+
+
+timesince=mohasebeye zaman
+timeuntil=mohasebeye zaman
+
+DATE_FORMAT======> date now 
+DATETIME_FORMAT======> date now and time now 
+SHORT_DATE_FORMAT======> date and time  (2020/5/2)
+SHORT_DATETIME_FORMAT======> date and time  (2020/5/2)  3:50 P.m 
+
+
+</div>
+
+
+
+
+
+
+<<<<<<======( lorem )======>>>>>>
+
+{% lorem %}
+{% lorem 3 %}  3bar
+{% lorem 3 w %}  3ta kalame
+{% lorem 3 w random %}  3ta kalame random
+
+
+<<<<<<======( ifchanged )======>>>>>>
+
+{% now 'u' as t %}
+{% ifchanged t %}<div> tagir darad <div>
+{% else %}<div> tagir nadarad <div>
+
+
+{% now 'u' as t %}
+{% ifchanged  %}<div> {% now 'h' %} </div>
+{% else %}<div> tagir nadarad </div>
+{% endifchanged %}
+
+
+
+
+{% autoescape off %}
+{% endautoescape %}  #off=hamalat hak  # on=amniat
+
+<<<<<<=======inclusion_tag======>>>>>
+
+
+@register.inclusion_tag(' dakhelesh adress template minivisim')
+v .....
+
+
+
+
+<<<<======length(tedad karakter)====>>>>
+view=
+d=[iou98y78]
+{{d|length}}===>>8
+
+view=
+d=[iou]
+{% if d|length:3 %}
+hii
+{%endif%}====>>>hi
+
+
+<<<<=====make_list=====>>>>
+view=
+d=[iou98]
+{{d|make_list}}===>>['i','o','u','9','8']
+
+
+
+
+
+
+
+<<<<<<=====divisibleby(bakhsh pazir )=====>>>>>
+view=
+d=25
+{{d|divisibleby:5}}===>>true
+
+
+
+
+<<<<<<=====filesizeformat=====>>>>>
+view=
+d=25644145
+{{d|filesizeformat}}===>>24.5 MB
+
+
+
+<<<<<<=====floatformat=====>>>>>
+view=
+d=25.644145
+{{d|floatformat:3}}===>>25.644
+
+
+
+
+<<<<<<=====get_digit=====>>>>>
+view=
+d=25.644145
+{{d|get_digit:3}}===>>1
+
+
+
+
+<<<<<<=====capfirst=====>>>>>
+view=
+d=ali
+{{d|capfirst}}===>>Ali
+
+
+
+
+
+<<<<<<=====cut=====>>>>>
+view=
+d=hello ali rezaii
+{{d|cut:"ali"}}===>>hello rezaii
+
+
+
+
+
+<<<<<<=====linebreaks   linenumbers=====>>>>>
+view=
+d=hello ali rezaii
+{{d|linenumbers|linebreaks}}===>>1.
+2. hello
+3. ali rezaii
+
+
+
+
+<<<<<<=====slugify=====>>>>>
+view=
+d='\nhello \nali \\ sss %&%$#  rezaii'
+{{d|slugify}}===>>hello-ali-sss-rezaii

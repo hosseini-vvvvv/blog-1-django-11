@@ -1,0 +1,70 @@
+{% extends "page/base2.html" %}
+
+{% load static %}
+{% block title %} ورود به سایت{% endblock %}
+{% block head %}
+{% block content %}
+
+<form class="login_form" method="post">
+
+<label for="username">name :</label>
+<input type="text" id="username" name="username"> 
+
+
+<label for="password">password :</label>
+<input id="password" type="password" name="password">
+<input type="submit" value="ورود ">
+
+
+{% csrf_token %}
+
+</form>
+<div class='error_login'>
+{% if form.errors %}
+    لطفا خطاهای زیر را اصلاح کنید
+    <br>
+       {% for field in form %}
+           {% if field.errors %}
+             {% for error in field.errors %}
+            
+                    {{ field.label }} : {{error}}
+             {% endfor %}
+          {% endif %}
+    {% endfor %}
+
+    <br>
+    <br>
+    
+    {% if form.non_field_errors %}
+                         
+            {{ form.non_field_errors }}
+        
+            {% endif %}
+    {% endif %}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+{% endblock %}

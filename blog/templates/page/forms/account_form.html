@@ -1,0 +1,138 @@
+{% extends 'page/base2.html' %}
+
+{% block body %}
+
+
+<h3 style="color:black;text-align:center;  margin:10px">Information Form Personal : {{user.first_name }} </h3>
+
+<form method="post">
+
+    {% comment %} {{ form.as_p }} {% endcomment %}
+
+    {% csrf_token %}
+
+
+
+
+    {% comment %} نام:
+    <input type="text" name="name" {% if form.name.value %} value="{{ form.name.value }}" {% else %}
+        value="{{ account.user.name|default:''}}" {% endif %}> {% endcomment %}
+    <br>
+
+    <label for="exampleInputEmail1" class="form-label">نام</label>
+    <input maxlength="25 type=" text" class="form-control" id="exampleInputEmail1" name="name" {% if form.name.value %}
+        value="{{ form.name.value }}" {% else %} value="{{ account.user.name|default:''}}" {% endif %}>
+
+    <br>
+
+    {% comment %} نام خانوادگی: {% endcomment %}
+    {% comment %} <input type="text" name="last_name" required {% if form.last_name.value %}
+        value="{{ form.last_name.value }}" {% else %} value="{{ account.user.last_name|default:''}}" {% endif %}>
+    {% endcomment %}
+
+    <label for="exampleInputEmail1" class="form-label"> نام خانوادگی</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="last_name" required
+        {% if form.last_name.value %} value="{{ form.last_name.value }}" {% else %}
+        value="{{ account.user.last_name|default:''}}" {% endif %}>
+
+    <br>
+
+    {% comment %} سن :
+    <input type="number" name="age" required {% if form.age.value %} value="{{ form.age.value }}" {% else %}
+        value="{{ account.age.last_name|default:''}}" {% endif %}> {% endcomment %}
+
+
+    <label for="exampleInputEmail1" class="form-label"> سن</label>
+    <input type="number" class="form-control" id="exampleInputEmail1" name="age" required {% if form.age.value %}
+        value="{{ form.age.value }}" {% else %} value="{{ account.user.age|default:''}}" {% endif %}>
+    <br>
+
+
+     {% comment %} شماره همراه:
+    <input type="text" name="phone" value="{{ account.phone|default:''}}"> {% endcomment %}
+
+    <label for="exampleInputEmail1" class="form-label">شماره همراه </label>
+    <input type="text" name="phone" class="form-control" id="exampleInputEmail1"  value="{{ account.phone|default:''}}">
+    <br>
+    <br>
+
+
+
+    {% comment %} جنسیت:
+    <input type="radio" name="gender" value="اقا" {% if account.gender == 'اقا'%} checked {% endif %}>
+    اقا
+    <input type="radio" name="gender" value="خانم" {% if account.gender == 'خانم'%} checked {% endif %}>
+    خانم
+    <br>
+    <br> {% endcomment %}
+
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="اقا"
+            {% if account.gender == 'اقا'%} checked {% endif %}>
+        <label class="form-check-label" for="inlineRadio1">آقا</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="خانم"
+            {% if account.gender == 'خانم'%} checked {% endif %}>
+        <label class="form-check-label" for="inlineRadio2">خانم</label>
+    </div>
+    <br>
+    <br>
+    {% comment %} ادرس: {% endcomment %}
+
+    {% comment %} <textarea name="address" required>
+
+    {% if form.address.value %} {{ form.address.value}}
+  
+    {% else %}{{ account.address|default:''}}
+    
+    {% endif %}
+ 
+    </textarea> {% endcomment %}
+
+
+
+
+
+    <label for="exampleFormControlTextarea1" class="form-label">ادرس</label>
+    <textarea class="form-control" required name="address" id="exampleFormControlTextarea1" rows="3">
+        {% if form.address.value %} {{ form.address.value}}{% else %}{{ account.address|default:''}}{% endif %}
+    </textarea>
+    <br>
+
+    <button class="btn btn-primary" type="submit">ثبت</button>
+
+    <br>
+    <br>
+    
+</form>
+
+{% if form.errors %}
+    لطفا خطاهای زیر را اصلاح کنید
+    <br>
+       {% for field in form %}
+           {% if field.errors %}
+             {% for error in field.errors %}
+            
+                    {{ field.label }} : {{error}}
+             {% endfor %}
+          {% endif %}
+    {% endfor %}
+
+    <br>
+    <br>
+    
+    {% if form.non_field_errors %}
+                         
+            {{ form.non_field_errors }}
+        
+            {% endif %}
+    {% endif %}
+
+    {% comment %} <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out! 
+    </div> {% endcomment %}
+
+{% endblock %}
+
+<!--   border-radius: 8px; padding: 5px; ;border: 1px solid #d9d4d4; -->

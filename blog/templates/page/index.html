@@ -1,0 +1,29 @@
+{% extends "page/base2.html" %}
+
+{% load static %}
+{% block title %}  بلاگ {% endblock %}
+{% block head %}
+{% block content %}
+
+<div class="nav_bar_head" > 
+        <a href="{% url 'blog:users' %}"><p>لیست پست ها</p></a>
+</div> 
+
+
+{% if request.user.is_authenticated %}
+    <div class="welcome_page">
+        <p>خوش آمدی {{request.user.first_name}}</p>
+        <a href="{% url 'blog:logout' %}">خروج</a>
+        <br>
+        
+        <a href="{% url 'blog:change_password' %}">تغییر پسورد</a>
+    </div>
+{% else %}
+    <div class="nav_bar_head" >
+        <a href="{% url 'blog:login' %}"><p>ورود به وبسایت</p></a>
+    </div>
+{% endif %}
+
+
+{% endblock %}
+{% endblock %}

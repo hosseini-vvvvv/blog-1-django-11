@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'blog:home' %}">خانه</a></li>
+{% for cat in category %}
+<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{% url 'blog:category' cat.slug %}">{{cat.title}}</a></li>
+{% endfor%}
+{% comment %} ======nafahmidam     {% endcomment %}
+</ul>
+</div>

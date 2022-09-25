@@ -1,0 +1,74 @@
+{% extends "page/base2.html" %}
+
+{% load static %}
+{% block title %}   اشتراک گذاری پست  {% endblock %}
+{% block head %}
+{% block content %}
+
+
+
+<h2 style=text-align:center;color:rgb(13,85,85)>صفحه ی اشتراک گذاری پست </h2>
+<br>
+<br>
+
+{% if sent %}
+       ppppp  پست  برای ارسال 
+{% endif %}
+
+
+
+<form method="post">
+{% csrf_token %}
+
+
+<!-- {{ form.as_p }} >>>>>>>> ya  in <<<<<<<-->
+{% for field in form %}
+<div class="form">
+{{ field.label}}:
+</div>
+<div>{{field}}</div>
+<!-- >>>>>>>>ya in <<<<<<< -->
+{% endfor %}
+
+
+<br>
+<input class="h" type="submit" value="اشتراک  پست">
+
+
+
+</form>
+<br>
+
+ <a href="{% url "blog:site" post.slug post.id %}">بازگشت</a>
+ 
+
+
+
+
+
+{% if form.errors %}
+لطفا خطاهای زیر را اصلاح کنید
+<br>
+{% for field in form %}
+{% if field.errors %}
+
+  {% for error in field.errors %}
+
+      {{ field.label }} : {{ error }}
+   {% endfor %}
+{% endif %}
+{% endfor %}
+
+<br>
+<br>
+
+{% if form.non_field_errors %}
+
+ {{ form.non_field_errors }}
+
+{% endif %}
+  {% endif %} 
+
+
+{% endblock %}
+{% endblock %}
